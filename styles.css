@@ -13,3 +13,12 @@
 .brand-light{font-size:12px;font-weight:500;letter-spacing:1.8px;color:#aab2a1}
 .site-footer .brand{font-size:16px}.site-footer .brand-mark{font-size:15px;width:34px;height:34px}
 @media(max-width:600px){.brand{font-size:16px;gap:10px}.brand-mark{width:36px;height:36px;font-size:15px}.brand-light{font-size:10px;letter-spacing:1.5px}}
+
+/* Tinda: an actual snapshot of the live inventory application. */
+.project-preview.tinda-preview{display:flex;flex-direction:column;justify-content:space-between;padding:0;background:#eaf0f3;border:1px solid #46616a;color:#203d4b;min-height:360px}
+.tinda-preview .preview-chrome{margin:0;padding:16px 20px;border-bottom:1px solid #cad7dd;font-size:10px;letter-spacing:1px}
+.tinda-preview img{width:100%;height:auto;aspect-ratio:1265/712;object-fit:contain;background:#f5f7f9}
+.tinda-preview-caption{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 20px;font-size:11px;border-top:1px solid #cad7dd}
+.tinda-preview-caption>span:last-child{white-space:nowrap;font-weight:600}
+@media(max-width:800px){.project-preview.tinda-preview{min-height:330px}.tinda-preview-caption{flex-wrap:wrap}}
+@media(max-width:600px){.project-preview.tinda-preview{min-height:0}.tinda-preview .preview-chrome,.tinda-preview-caption{padding:14px 16px}.tinda-preview-caption{font-size:10px}}

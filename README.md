@@ -12,6 +12,6 @@ Use the existing `ydnarstudio` project. Framework: Other. Root: repository root.
 
 ## Features
 
-Responsive dark-and-gold design, geometric YS logo, mobile navigation, accessible project dialogs, two interactive concept demos, project inquiry composer, portrait, and resume.
+Responsive dark-and-gold design, geometric YS logo, mobile navigation, accessible project dialogs, a live Tinda inventory showcase with an actual dashboard snapshot, two interactive concept demos, project inquiry composer, portrait, and resume.
 
 Concept demos use fictional data and do not create real bookings or connect to a CRM. Project inquiries open the visitor’s email app; visitors review and send their own messages. The website does not store personal details.
