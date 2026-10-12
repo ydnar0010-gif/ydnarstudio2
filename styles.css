@@ -22,3 +22,8 @@
 .tinda-preview-caption>span:last-child{white-space:nowrap;font-weight:600}
 @media(max-width:800px){.project-preview.tinda-preview{min-height:330px}.tinda-preview-caption{flex-wrap:wrap}}
 @media(max-width:600px){.project-preview.tinda-preview{min-height:0}.tinda-preview .preview-chrome,.tinda-preview-caption{padding:14px 16px}.tinda-preview-caption{font-size:10px}}
+
+/* Sage framing complements the Cashflow app's selected Sage theme. */
+.project-preview.cashflow-preview{background:#dce7dc;border-color:#78917d;color:#263e2e}
+.cashflow-preview .preview-chrome,.cashflow-preview .tinda-preview-caption{border-color:#becfbe}
+.cashflow-preview img{background:#dce7dc}
